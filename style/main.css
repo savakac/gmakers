@@ -1,0 +1,396 @@
+/*CSS k hlavnemu suboru.*/
+
+/*Definicia vzhladu stranky*/
+
+body.ShowView
+{
+	background-color: #352726;
+	font: normal 15px Verdana;
+}
+
+div.vonkajsi
+{
+	background-color: #000000;
+	width: 800px;
+	margin: auto;
+}
+
+div.hlavicka
+{
+	background-color: #FFFFFF;
+	width: 800px;
+	height: 126px;
+	border-bottom: 1px solid #000000;
+}
+
+div.adminMenu
+{
+	background-color: yellow;
+	border-bottom: 1px solid black;
+	float: left;
+	width: 800px;
+	height: auto;
+}
+
+div.content
+{
+	background-color: #FFFFCC;
+	float: left;
+}
+
+div.lavy
+{
+	background-color: #FFFFCC;
+	width: 150px;
+	float: left;
+	border-right: 1px solid #000000;
+}
+
+div.obsah
+{
+	background-color: #FFFFCC;
+	width: 609px;
+	min-height: 500px;
+	margin-left: 150px;
+	padding: 20px;
+	border-left: 1px solid #000000;
+}
+
+div.foot
+{
+	background-color: #303030;
+	width: 800px;
+	height: 220px;
+	float: left;
+}
+
+div.square
+{
+	background-color: #000000;
+	width: 250px;
+	height: 200px;
+	float: left;
+	color: #FFFFFF;
+	margin-left: 12px;
+	margin-top: 10px;
+}
+
+div.squareRound1
+{
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-right: 10px;
+	border-bottom: 1px dotted #FFFFFF;
+}
+
+div.squareRound2
+{
+	margin-top: 20px;
+}
+
+div.pata
+{
+	background-color: #006699;
+	width: 800px;
+	height: 15px;
+	float: left;
+	border-top: 1px solid #000000;
+	font-size: 10px;
+	text-align: center;
+	font-weight: bold;
+}
+
+/*Formatovanie obsahu hlavnej stranky*/
+
+p.MpNadpis 
+{ 
+	font: bold 18px Tahoma; 
+	color: black; 
+}
+
+p.MpText 
+{ 
+	font: bold 13px Tahoma Arial; 
+	color: #707070; 
+	text-align: justify; 
+	text-indent: 1cm; 
+}
+
+table.MpTime 
+{ 
+	border-top: 8px solid #00FF00; 
+	border-bottom: 8px solid #00FF00; 
+	width: 65%; 
+	margin-top: 50px; 
+	clear: left right; 
+	border-radius: 30px;
+}
+
+td.MpTime 
+{ 
+	text-align: center; 
+	border-bottom: 1px dotted #00FF00; 
+	font: 12px Tahoma; 
+}
+
+h4
+{
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+
+ul
+{
+	font-size: 12px;
+	line-height: 210%;
+	color: #939393;
+	margin-top: -10px;
+}
+
+p
+{
+	color: #939393;
+	font-size: 11px;
+	font-family: Arial, Verdana;
+	margin: 10px 20px 0px 20px;
+	text-align: justify;
+}
+
+a:link 
+{ 
+	color: blue;
+}
+
+a:visited 
+{ 
+	color: blue;
+}
+
+a:active
+{
+	color: black;
+}
+
+a:hover
+{
+	color: red;
+	text-decoration: underline;
+}
+
+/*Definovanie menu*/
+
+a.menu 
+{ 
+	display: block;
+	width: 150px; 
+	height: auto; 
+	border: 1px solid black; 
+	margin-left: -1px;
+	margin-top: -1px;
+	background-color: transparent; 
+	font: bold 12px Verdana; 
+	color: blue; 
+	text-decoration: none; 
+	text-align: center; 
+	line-height: 1.7;
+}
+
+a.menu:hover 
+{ 
+	color: red; 
+	background-color: yellow; 
+}
+
+div.submenu 
+{ 
+	width: 150px; 
+	padding: 11 0; 
+	background-color: transparent; 
+	border: 1px solid black;
+	margin-left: -1px;
+	margin-top: -1px;
+}
+
+a.submenu 
+{ 
+	font: normal 11px Verdana; 
+	color: red; 
+	text-align: center; 
+	line-height: 1.5;
+}
+
+/*Nepouzite style*/
+/*Definicia textu*/
+
+/*
+h1 { color: #ffffff; text-align: center }
+h2 { text-align: center; color: #000000; font-style: italic }
+*/
+
+/*Definicia foto*/
+
+/*
+table.MpFoto 
+{ 
+	border: 2px dotted black; 
+	margin-left: 20px; 
+	margin-top: 50px; 
+}
+
+td.MpFoto 
+{ 
+	border: 2px solid black; 
+	text-align: center; 
+	width: 50px; height: 80px; 
+}
+
+td.MpFoto:hover 
+{ 
+	border: 2px solid red; 
+}
+*/
+
+/*Definicia casu*/
+
+/*
+span.MpNadpis 
+{ 
+	font: bold 18px Tahoma;
+	color: black;
+	text-align: left;
+	margin: 20px 0px 20px 0px;
+}
+*/
+
+/*Menu*/
+
+#nav {
+	background: transparent;
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	border-bottom: none;
+}
+
+#nav li a, #nav li {
+	float: left;
+}
+
+#nav li {
+	list-style: none;
+	position: relative;
+}
+
+#nav li a {
+	padding: 1em 2em;
+	text-decoration: none;
+	color: white;
+	background: #292929;
+	border-top: 1px solid #550055;
+	border-left: 1px solid #550055;
+	border-right: 1px solid #550055;
+	border-bottom: 1px solid #550055;
+	width: 128px;
+	height: auto;
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+}
+
+#nav li a:hover {
+	background: #2a0d65;
+}
+
+/*Submenu*/
+
+#nav li ul {
+	display: none;
+	position: absolute;
+	left: 0px;
+	top: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+
+#nav li:hover > ul {
+	display: block;
+}
+
+#nav li ul li, #nav li ul li a {
+	float: none;
+}
+
+#nav li ul li a {
+	width: 150px;
+	display: block;
+}
+
+/*Submenu 2*/
+
+#nav li ul li ul {
+	display: none;
+}
+
+#nav li ul li:hover ul {
+	left: 100%;
+	top: 0px;
+}
+
+/*Administratorske menu zatial sa nepouziva*/
+
+div.hMenu
+{
+	width: 100px;
+	height: 20px;
+	float: left;
+	text-align: center;
+	border: 2px solid blue;
+	cursor: pointer;
+}
+
+div.hMenu:hover
+{
+	background-color: #FFCFCC;
+}
+
+div.hSubMenu
+{
+	width: 100px;
+	height: auto;
+	border: 2px solid blue;
+	background-color: #FFFFCC;
+	line-height: 1.5;
+	position: relative;
+	margin-left: -2px;
+	margin-top: 2px;
+}
+
+/* jquery funnyJump*/
+#infoBackground
+{
+	opacity: 0.7;
+	visibility: visible;
+	display: none;
+	background-color: #000000;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+}
+
+#infoTable
+{
+	display: none;
+	background-color: #ffffff;
+	width: 300px;
+	height: 200px;
+	position: absolute;
+	top: 40%;
+	left: 45%;
+	border-radius: 20px;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}

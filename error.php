@@ -1,0 +1,1 @@
+Chyba stranky 404.
