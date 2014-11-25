@@ -1,3 +1,3 @@
 Web page gmakers.eu
-Complete page config.php
+Complete page config.php and login.php
 Remove .gitignore
